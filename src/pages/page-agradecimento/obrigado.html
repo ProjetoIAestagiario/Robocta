@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/src/styles/reset.css">    
+<link rel="stylesheet" href="/src/styles/global.css">    
+
+    <title>Obrigado!</title>
+    <style>
+        body {
+            font-family: var(--font);
+            background-color: var(--cor-principal);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color:var(--cor-primaria-1);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--cor-primaria-3);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: var(--cor-primaria-4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Obrigado!</h1>
+        <p>Obrigado por enviar sua dúvida. Nossa equipe entrará em contato com você em breve.</p>
+        <a href="/" class="button">Voltar para a página inicial</a>
+    </div>
+</body>
+</html>

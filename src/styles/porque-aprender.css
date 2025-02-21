@@ -1,0 +1,259 @@
+#why-learn-section {
+  width: 100%;
+  padding: 5rem 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#why-learn-section > .section-title {
+  width: 17.1em;
+  font-size: 1.7em;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.section-title > span {
+  color: var(--cor-texto-destaque);
+}
+
+#why-learn-section > .section-description,
+#why-learn-section > .why-learn-description-bottom {
+  width: 36em;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#why-learn-section > .section-subtitle {
+  color: var(--cor-texto-destaque);
+  font-size: 1.4em;
+  padding: 1.5rem 0 3rem 0;
+}
+
+#why-learn-section > .benefits-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+.benefits-container > .benefit-card {
+  max-width: 30em;
+  padding: 1.5rem;
+  background-color: var(--cor-primaria-1);
+  clip-path: polygon(
+    30px 0%,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0% 30px
+  );
+}
+
+.benefit-card > .benefit-title {
+  font-size: 0.9em;
+  padding-bottom: 1rem;
+}
+
+.benefit-card > .benefit-title > span {
+  color: var(--cor-texto-destaque);
+}
+
+.benefit-card > .benefit-description {
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+#why-learn-section > .why-learn-description-bottom > span {
+  color: var(--cor-texto-destaque);
+}
+
+/* botão */
+/* From Uiverse.io by Voxybuns */
+#why-learn-section > .why-learn-cta-container {
+  /* Variables */
+  --button_radius: 0.75em;
+  --button_color: #13a300;
+  --button_outline_color: #092209;
+  background: var(--button_outline_color);
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--button_radius);
+}
+
+.why-learn-cta-container > .why-learn-cta-button {
+  color: #fff;
+  background: var(--button_color);
+  display: block;
+  padding: 0.75em 1.5em;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+.why-learn-cta-container:hover .why-learn-cta-button {
+  /* Pull the button upwards when hovered */
+  transform: translateY(-0.33em);
+}
+
+.why-learn-cta-container:active .why-learn-cta-button {
+  /* Push the button downwards when pressed */
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 850px) {
+  #why-learn-section > .section-title {
+    font-size: 1.5em;
+  }
+
+  #why-learn-section > .section-description,
+  #why-learn-section > .why-learn-description-bottom {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #why-learn-section > .section-title {
+    width: 60%;
+    font-size: 1.5em;
+  }
+
+  #why-learn-section > .section-description,
+  #why-learn-section > .why-learn-description-bottom {
+    width: 90%;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  #why-learn-section > .section-title {
+    font-size: 1.3em;
+  }
+
+  #why-learn-section > .section-subtitle {
+    font-size: 1.1em;
+  }
+
+  #why-learn-section > .section-description,
+  #why-learn-section > .why-learn-description-bottom {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #why-learn-section > .section-title {
+    font-size: 0.9em;
+  }
+
+  #why-learn-section > .section-description,
+  #why-learn-section > .why-learn-description-bottom {
+    font-size: 0.8em;
+  }
+
+  #why-learn-section > .section-subtitle {
+    font-size: 0.8em;
+  }
+}
+
+/* Estilos para os cards de aprendizado */
+.learning-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.learning-card {
+  background: var(--white-color);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.learning-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-icons {
+  width: 100%;
+  text-align: center;
+  color: #117603;
+  font-size: 5em;
+}
+
+.learning-card:hover .card-icons {
+  transform: scale(1.05);
+  filter: brightness(1.6);
+}
+
+.learning-card .card-icons {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-content h3 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card-content p {
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.card-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.card-skills span {
+  background-color: var(--cor-primaria-1);
+  color: var(--cor-primaria-4);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .learning-cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card-content h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .card-content p {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .card-skills {
+    justify-content: center;
+    align-items: center;
+  }
+}

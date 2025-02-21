@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/reset.css" />
+    <link rel="stylesheet" href="src/styles/global.css" />
+    <link rel="stylesheet" href="src/styles/index.css" />
+    <link rel="stylesheet" href="src/styles/about.css" />
+    <link rel="stylesheet" href="src/styles/aprendizagem.css" />
+    <link rel="stylesheet" href="src/styles/porque-aprender.css" />
+    <link rel="stylesheet" href="src/styles/form.css" />
+    <link rel="stylesheet" href="src/styles/footer.css" />
+    <link rel="stylesheet" href="src/styles/menu.css" />
+    <link rel="stylesheet" href="src/styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Robocta</title>
+  </head>
+
+  <body>
+    <main>
+      <section id="hero-section">
+        <div class="main-container">
+          <div class="logo-container">
+            <img src="src/img/logo-octa.png" alt="Logo Octa" class="logo" />
+          </div>
+
+          <nav class="menu">
+            <div class="menu-toggle" id="menu-toggle">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <div class="menu-items hidden" id="menuItems">
+              <div>
+                <a href="#hero-section">Início</a>
+                <a href="#about-section">Sobre nós</a>
+                <a href="#learning-section">Aulas</a>
+              </div>
+
+              <div>
+                <a href="#why-learn-section">Blog</a>
+                <a href="#contact-section">Contato</a>
+                <a href="#contact-section" class="active">Inscreva-se</a>
+              </div>
+            </div>
+          </nav>
+
+          <!-- <nav class="main-nav">
+            <div class="menu-icon" id="menu-icon">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
+              <div class="nav-left">
+                <li><a href="#" class="nav-link">Início</a></li>
+                <li><a href="#about-section" class="nav-link">Sobre nós</a></li>
+                <li><a href="#about-section" class="nav-link">Sobre nós</a></li>
+                <li><a href="#" class="nav-link">Cursos</a></li>
+              </div>
+              <div class="nav-right">
+                <li><a href="#" class="nav-link">Blog</a></li>
+                <li><a href="#" class="nav-link">Contato</a></li>
+                <li>
+                  <a class="active" href="#" class="nav-link active"
+                    >Inscreva-se</a
+                  >
+                </li>
+              </div>
+            </ul>
+          </nav> -->
+
+          <div class="content-wrapper">
+            <article class="hero-content">
+              <h1 class="hero-title">
+                Rob<img
+                  src="src/img/logo-octa.webp"
+                  alt="Logo Octa"
+                  class="inline-logo"
+                /><span>cta</span>
+              </h1>
+              <h2 class="hero-subtitle">Explorando o Mundo da Robótica</h2>
+              <p class="hero-description">
+                No <span>Projeto Robocta</span>, jovens têm a oportunidade de
+                mergulhar no fascinante universo da robótica. Voltado para
+                crianças e adolescentes de <span>9 a 15 anos</span>, o Projeto
+                Robocta oferece aulas práticas e projetos inovadores que
+                estimulam a criatividade, o raciocínio lógico e o espírito de
+                inovação. Aqui, eles constroem robôs, aprendem programação e se
+                preparam para liderar o futuro!
+              </p>
+
+              <!-- From Uiverse.io by Voxybuns -->
+              <button class="cta-container">
+                <a
+                  class="cta-button"
+                  href="#learning-section"
+                  >Aulas</a>
+              </button>
+            </article>
+            <img
+              src="src/img/LEGO_Education_Presents__SPIKE_Prime_for_First_LEGO-removebg-preview (1).png"
+              alt="Imagem ilustrativa da Robocta"
+              class="hero-img"
+            />
+          </div>
+        </div>
+        <div class="gradient-separator"></div>
+      </section>
+
+      <!-- about -->
+      <section id="about-section">
+        <div class="gradient-separator"></div>
+        <div class="about-container">
+          <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+              <img
+                src="src/img/about-img-2.jpeg"
+                alt="Gallery image 1"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+              <img
+                src="src/img/about-img-6.jpeg"
+                alt="Gallery image 2"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+              <img
+                src="src/img/about-img-4.jpeg"
+                alt="Gallery image 3"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+              <img
+                src="src/img/about-img-1.jpeg"
+                alt="Gallery image 4"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+              <img
+                src="src/img/about-img-5.jpeg"
+                alt="Gallery image 5"
+                class="gallery__img"
+              />
+            </figure>
+            <figure class="gallery__item gallery__item--6">
+              <img
+                src="src/img/about-img-3.jpeg"
+                alt="Gallery image 6"
+                class="gallery__img"
+              />
+            </figure>
+          </div>
+
+          <article class="about-content">
+            <h2 class="about-title">O que é o Projeto Rob<span>octa</span>?</h2>
+            <p class="about-description">
+              A <span>Robocta</span> é uma iniciativa da
+              <span>OctaTelecom</span>, mais do que uma provedora de internet;
+              somos uma empresa que acredita na inovação e na transformação
+              através da tecnologia. Nosso compromisso vai além de oferecer uma
+              conexão de qualidade: buscamos sempre trazer o melhor para nossos
+              clientes, com soluções que conectam pessoas, ideias e
+              oportunidades.
+              <!-- <a
+                class="about-description-ver-mais"
+                href="src/pages/page-sobre/sobre.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Saiba mais sobre nós</a
+              > -->
+            </p>
+            <!--
+            <button class="cta-container">
+              <a
+                class="cta-button"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Inscreva-se</a
+              >
+            </button> -->
+          </article>
+        </div>
+      </section>
+
+      <!-- aprendizagem -->
+      <section id="learning-section">
+        <img class="contact-detalhe-tec-top" src="src/img/image.png" alt="" />
+        <h2 class="section-title">
+          O que seu filho vai aprender na Rob<span>octa?</span>
+        </h2>
+
+        <p class="section-description">
+          Na <span>Robocta</span>, seu filho embarca em uma jornada de
+          aprendizado que vai muito além da tecnologia! Como iniciativa da
+          <span>OctaTelecom</span>, acreditamos na inovação e no poder
+          transformador do conhecimento. Nosso objetivo é preparar a nova
+          geração para o futuro, desenvolvendo habilidades essenciais como
+          criatividade, pensamento lógico e resolução de problemas tudo de forma
+          prática, envolvente e divertida!
+        </p>
+
+        <div class="cards-grid">
+          <!-- Card 1 -->
+          <div class="card">
+            <img
+              src="src/img/alunos-programando.webp"
+              alt="Alunos programando"
+              class="card-icon"
+            />
+            <h3>Programação em Blocos</h3>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <img
+              src="src/img/spike-prime-montagem.avif"
+              alt="Montagem com LEGO"
+              class="card-icon"
+            />
+            <h3>Montagem com LEGO</h3>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <img
+              src="src/img/spike-prime-automoção.png"
+              alt="Automação"
+              class="card-icon"
+            />
+            <h3>Automação</h3>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card">
+            <img
+              src="src/img/competição.webp"
+              alt="Competições"
+              class="card-icon"
+            />
+            <h3>Competições</h3>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="card">
+            <img
+              src="src/img/alunos-trabalhando-em-equipes.webp"
+              alt="Trabalho em equipe"
+              class="card-icon"
+            />
+            <h3>Trabalho em Equipe</h3>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="card">
+            <img
+              src="src/img/spike-prime-inovação.webp"
+              alt="Inovação"
+              class="card-icon"
+            />
+            <h3>Inovação</h3>
+          </div>
+        </div>
+        <img
+          class="contact-detalhe-tec-bottom"
+          src="src/img/image.png"
+          alt=""
+        />
+      </section>
+
+      <!-- Benefícios -->
+      <section id="why-learn-section">
+        <h2 class="section-title">
+          Benefícios para o seu filho
+          <span>na Robocta</span>
+        </h2>
+        <p class="section-description">
+          Na <span>Robocta</span>, seu filho desenvolverá habilidades essenciais
+          para o futuro de forma divertida e envolvente! A cada aula, ele
+          aprenderá na prática como unir criatividade e tecnologia para criar
+          soluções inovadoras. Além disso, a jornada de aprendizado
+          proporcionará:
+        </p>
+
+        <div class="learning-cards-container">
+          <!-- Card 1 - Programação -->
+          <div class="learning-card">
+            <div class="card-icons">
+              <i class="fa-solid fa-code icon-card"></i>
+            </div>
+            <div class="card-content">
+              <h3>Pensamento lógico e resolução de problemas</h3>
+              <p>
+                Aprender a estruturar ideias, identificar desafios e encontrar
+                soluções eficientes, estimulando o raciocínio crítico.
+              </p>
+              <div class="card-skills">
+                <span>Pensamento Lógico</span>
+                <span>Resolução de Problemas</span>
+                <span>Criatividade Digital</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 - Montagem de Robôs -->
+          <div class="learning-card">
+            <div class="card-icons">
+              <i class="fa-solid fa-robot icon-card"></i>
+            </div>
+            <div class="card-content">
+              <h3>Habilidades em programação e robótica</h3>
+              <p>
+                Explorar conceitos de codificação e construção de robôs,
+                desenvolvendo competências tecnológicas essenciais.
+              </p>
+              <div class="card-skills">
+                <span>Coordenação Motora</span>
+                <span>Raciocínio Espacial</span>
+                <span>Criatividade Manual</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 - Trabalho em Equipe -->
+          <div class="learning-card">
+            <div class="card-icons">
+              <i class="fa-solid fa-users icon-card"></i>
+            </div>
+            <div class="card-content">
+              <h3>Trabalho em equipe e colaboração</h3>
+              <p>
+                Aprender a dividir tarefas, comunicar ideias e trabalhar em
+                conjunto para alcançar objetivos.
+              </p>
+              <div class="card-skills">
+                <span>Comunicação</span>
+                <span>Liderança</span>
+                <span>Colaboração</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 - Inovação -->
+          <div class="learning-card">
+            <div class="card-icons">
+              <i class="fa-solid fa-lightbulb icon-card"></i>
+            </div>
+            <div class="card-content">
+              <h3>Autoconfiança para enfrentar desafios</h3>
+              <p>
+                Superar obstáculos com persistência, ganhando confiança para
+                resolver problemas e inovar.
+              </p>
+              <div class="card-skills">
+                <span>Resiliência</span>
+                <span>Tomada de decisão</span>
+                <span>Independência</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="why-learn-description-bottom">
+          Na <span>Robocta</span>, o aprendizado se torna uma aventura
+          empolgante! Seu filho não só explorará a tecnologia, mas também
+          desenvolverá habilidades essenciais para o futuro, unindo
+          criatividade, lógica e inovação.
+        </p>
+      </section>
+
+      <!-- formulário  -->
+      <section id="contact-section">
+        <img class="contact-detalhe-tec-top" src="src/img/image.png" alt="" />
+        <img class="contact-detalhe-tec-top" src="src/img/image.png" alt="" />
+        <h3 class="contact-section-title">Fale com <span>conosco</span></h3>
+        <form class="contact-form" action="src/pages/page-agradecimento/obrigado.html" method="get">
+          <div class="contact-methods">
+            <article class="contact-icons">
+              <a
+                href="https://wa.me/seunumerodetelefone"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-square-whatsapp"> </i>
+              </a>
+            </article>
+            <article class="contact-icons">
+              <a
+                href="https://www.instagram.com/octatelecom"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+            </article>
+            <article class="contact-icons">
+              <a
+                href="https://www.instagram.com/octatelecom"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-map"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="form-container">
+            <article class="form-content">
+              <h3 class="form-title">Envie-nos uma <span>mensagem</span></h3>
+              <input
+                type="text"
+                placeholder="Seu nome completo"
+                class="form-input"
+                required
+              />
+              <input
+                type="email"
+                placeholder="Seu melhor email"
+                class="form-input"
+                required
+              />
+              <textarea
+                placeholder="Conte-nos como podemos ajudar"
+                class="form-textarea"
+                required
+              ></textarea>
+              <button type="submit" class="form-button">Enviar Mensagem</button>
+            </article>
+          </div>
+
+          <div class="map-container">
+            <article class="map-content">
+              <h3 class="map-title">Onde nos <span>encontrar</span></h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50906.90978923508!2d-44.08679387884947!3d-2.8342819870510665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f416a069559f0b%3A0x10aef5ebfb9245f!2sOcta%20Telecom!5e1!3m2!1spt-BR!2sbr!4v1738636198393!5m2!1spt-BR!2sbr"
+                allowfullscreen=""
+                loading="lazy"
+                class="map-iframe"
+              ></iframe>
+            </article>
+          </div>
+        </form>
+        <img
+          class="contact-detalhe-tec-bottom"
+          src="src/img/image.png"
+          alt=""
+        />
+        <img
+          class="contact-detalhe-tec-bottom"
+          src="src/img/image.png"
+          alt=""
+        />
+      </section>
+
+      <section class="footer">
+        <article class="footer-content-description">
+          <h3 class="footer-title">Rob<span>octa</span></h3>
+          <p class="footer-description">
+            A Robocta é um projeto de robótica que oferece aulas e projetos para
+            crianças e adolescentes de 9 a 15 anos. Nossa missão é estimular a
+            criatividade, a lógica e o espírito de inovação, preparando os
+            alunos para liderar o futuro.
+          </p>
+        </article>
+
+        <div class="footer-container">
+          <div class="footer-left">
+            <article class="footer-menu-links">
+              <h3 class="footer-title">Menu</h3>
+              <ul class="footer-menu">
+                <li>
+                  <a href="#" class="footer-link">
+                    <i class="fa-solid fa-house"></i> Início
+                  </a>
+                </li>
+                <li>
+                  <a href="#about-section" class="footer-link">
+                    <i class="fa-solid fa-info-circle"></i> Sobre nós
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">
+                    <i class="fa-solid fa-book"></i> Cursos
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">
+                    <i class="fa-solid fa-blog"></i> Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">
+                    <i class="fa-solid fa-envelope"></i> Contato
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link active">
+                    <i class="fa-solid fa-user-plus"></i> Inscreva-se
+                  </a>
+                </li>
+              </ul>
+            </article>
+
+            <article class="footer-contact">
+              <h3 class="footer-title">Contatos</h3>
+              <ul class="footer-contact-list">
+                <li>
+                  <a href="#" class="footer-contact-link">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Telefone: </span>(XX) XXXX-XXXX
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-contact-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>WhatsApp: </span>(XXX) XXXXX-XXXX
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-contact-link">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>E-mail: </span>robocta@octatelecom.com.br
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="footer-contact-link">
+                    <i class="fa-solid fa-map"></i>
+                    <span>Endereço: </span>R. da Alegria, 61A - CENTRO,
+                    <br />Morros - MA, 65160-000
+                  </a>
+                </li>
+              </ul>
+            </article>
+
+            <article class="footer-rede-sociais">
+              <h3 class="footer-title">Redes Sociais</h3>
+              <ul class="footer-social-list">
+                <li>
+                  <a href="#" class="footer-social-link">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                  </a>
+                </li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="footer-right">
+            <article class="footer-sponsors">
+              <h3 class="footer-title">Paceiros:</h3>
+              <div class="sponsors-grid">
+                <div class="sponsor-card">
+                  <img
+                    src="src/img/logo-paceiros/loog-octaTelecom.png"
+                    alt="Paceiro 1"
+                  />
+                </div>
+                <div class="sponsor-card">
+                  <img
+                    src="src/img/logo-paceiros/logo-sesiCasarão.png"
+                    alt="Patrocinador 2"
+                  />
+                </div>
+                <div class="sponsor-card">
+                  <img
+                    src="src/img/logo-paceiros/logo-iemaAxixa.png"
+                    alt="Patrocinador 3"
+                  />
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="footer-copy-container">
+          <p class="footer-copy">
+            &copy; 2025 <span>Robocta</span>. Todos os direitos reservados.
+            <br />
+            A <span>Robocta</span> é uma iniciativa da <span>Octatelecom</span>.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

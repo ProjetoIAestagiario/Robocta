@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+:root {
+  /* Cores principais */
+  --cor-principal: #001b2e;
+
+  /* Paleta de cores primárias */
+  --cor-primaria-1: #0d1527;
+  --cor-primaria-2: #0a2647;
+  --cor-primaria-3: #66ad39;
+  --cor-primaria-4: #336d1d;
+  --cor-degrade: #0d1527;
+  --cor-primaria-6: #2b75d4;
+
+  /* Outros */
+  --cor-texto-destaque: #66ad39;
+  --cor-brilho: rgb(101, 173, 57);
+  --cor-blur-meu-scroll: #0a2647;
+
+  /* Fonte */
+  --font: 'Oxanium', serif;
+}
